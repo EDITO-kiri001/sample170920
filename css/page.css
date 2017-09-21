@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*--
+中 font-size:96%;
+小 font-size:88%;
+--*/
+/*---------------------------------------*/
+/* 共通 */
+/*---------------------------------------*/
+.areaInner{
+width:90%;
+max-width:1300px;
+margin:0 auto;
+position:relative;
+z-index:10;
+}
+@media screen and (min-aspect-ratio: 16/10) and (max-width:1440px){
+.areaInner{
+max-width:980px;
+}
+}
+.areaInner.w980{
+max-width:980px;
+}
+.areaBase{
+margin:0 auto 90px;
+overflow:hidden;
+}
+

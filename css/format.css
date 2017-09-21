@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/*-------------------------------------*/
+/* CLEARFIX */
+/*-------------------------------------*/
+.clear,
+.inner
+{
+zoom:1;
+}
+
+
+.clear:after,
+.inner:after
+{
+content:"";
+display:block;
+clear:both;
+}
+
+/*---------------------------------------*/
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,br,hr,blockquote,th,td,label{    
+margin:0;   
+padding:0;   
+}
+
+fieldset,img,abbr,acronym{
+border:0;
+} 
+
+img{
+vertical-align:bottom;
+} 
+
+/*---------------------------------------*/
+hr{
+display:none;
+}
+
+/*---------------------------------------*/
+ul{
+list-style:none;   
+}
+
+/*---------------------------------------*/
+table{  
+border-collapse:collapse;
+border-spacing:0;
+}
+
+tr,th,td{  
+text-align:left;
+vertical-align:top;
+font-weight:normal;
+}
+
+caption{
+text-align:left;
+}
+
+/*---------------------------------------*/
+a img,:link img,:visited img{
+border:none;
+}
+
+:link,:visited {
+text-decoration:none;
+}
+
+q:before,q:after {
+content:'';
+}
+
+address {
+font-style:normal;
+}
+
+input:focus{
+outline: none;
+}
+
+

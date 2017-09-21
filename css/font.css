@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*-------------------------------------------*/
+/* A */
+/*-------------------------------------------*/
+a:link,
+a:visited
+{
+color:#007fb7;
+text-decoration:none;
+}
+
+a:hover,
+a:active
+{
+color:#007fb7;
+text-decoration:underline;
+}
+
+a[name]:hover {
+color:#000000;
+text-decoration:none;
+}
+
+/*-------------------------------------------*/
+
+
+
